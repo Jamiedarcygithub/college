@@ -1,0 +1,6 @@
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\bin\Debug\Abstract Classes and Properties.exe.config
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\obj\Debug\Abstract Classes and Properties.csprojResolveAssemblyReference.cache
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\bin\Debug\Abstract Classes and Properties.exe
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\bin\Debug\Abstract Classes and Properties.pdb
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\obj\Debug\Abstract Classes and Properties.exe
+C:\Users\jdarcy\OneDrive\College\Software development and process management\Abstract Classes and Properties\Abstract Classes and Properties\obj\Debug\Abstract Classes and Properties.pdb
