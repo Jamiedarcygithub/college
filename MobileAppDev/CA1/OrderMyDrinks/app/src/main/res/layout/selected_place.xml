@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.jdarcy.ordermydrinks.SelectedPlace">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <!-- Name Label -->
+    <TextView
+        android:text="@string/txtv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"/>
+
+    <!--  Name Value -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Address Label -->
+    <TextView
+        android:text="@string/txtv_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"/>
+
+    <!--  Address Value -->
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <!-- Website Label -->
+    <TextView
+        android:text="@string/txtv_website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"/>
+
+    <!--  WebSite Value -->
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <!-- Phone Number Label -->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"/>
+
+
+    <!-- Location Value -->
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="5dip"/>
+
+
+    <!-- Order Drinks button -->
+    <Button android:id="@+id/btn_make_reservation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_makereservation"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"/>
+
+    <!-- Order Drinks button -->
+    <Button android:id="@+id/btn_call_place"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_callbar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"/>
+
+
+</LinearLayout>

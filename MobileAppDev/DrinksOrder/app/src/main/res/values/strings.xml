@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">DrinksOrder</string>
+    <string name="add_button_text">Select Drinks</string>
+    <string name="mobile_services">Mobile Services </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="drinksList_text">Item Text</string>
+    
+</resources>

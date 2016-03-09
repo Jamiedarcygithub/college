@@ -6,45 +6,19 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    class Shape
+    public abstract class Shape
     {
-        public Shape(string color)
+        public ShapeColor Color { get; set; }
+        public Shape(ShapeColor color)
         {
-            this.Color = color;
-        }
-
-        private string color;
-
-        public string Color
-        {
-            get
-            {
-                return color;
-            }
-            set
-            {
-                if(!String.IsNullOrWhiteSpace(value))
-                {
-                    color = value;
-                }
-                else
-                {
-                    throw new ArgumentException("Color is invalid");
-
-                }
-
-            }
+            Color = color;
         }
 
         public override string ToString()
         {
-            return "Shape Details" + this.color;
+            return "Shape Details" + Color;
         }
 
-        public virtual string translate()
-        {
-            return "tanslate";
-        }
-
+        public abstract void Translate(Vertex amount);
     }
 }

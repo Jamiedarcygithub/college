@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reserve_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        <include android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <!--Form controls-->
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve_table_title"
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_height="wrap_content"
+            android:hint="@string/reserve_table_name"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="@string/reserve_table_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <Spinner
+            android:id="@+id/SpinnerTransportType"
+            android:layout_height="wrap_content"
+            android:prompt="@string/transport_spinner"
+            android:layout_width="fill_parent"
+            android:entries="@array/transporttypelist">
+        </Spinner>
+
+        <Button
+            android:id="@+id/brn_select_drinks"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_selectdrinks"
+            android:onClick="selectDrinks"
+            android:layout_width="fill_parent">
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>

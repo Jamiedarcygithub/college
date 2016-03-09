@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    class Vertex
+    public class Vertex
     {
-        private int x;
-        private int y;
-
         public int X
         {
             get; set; 
@@ -24,9 +21,14 @@ namespace Polymorphism
 
         public Vertex(int x, int y)
         {
-            this.X = x;
-            this.Y = y;
+            X = x;
+            Y = y;
 
+        }
+
+        public override String ToString()
+        {
+            return "X: " + X + "Y: " + Y;
         }
     }
 }
